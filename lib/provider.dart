@@ -11,6 +11,7 @@ class new_provider extends ChangeNotifier
   Future<void> fechdata()async
   {
     obj=await news_ser.get();
-    notifyListeners();
+    notifyListeners()
+    ;
   }
 }
