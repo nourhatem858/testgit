@@ -12,7 +12,7 @@ class Home extends StatelessWidget {
       body: ListView.builder(
           itemBuilder: (context, index) {
             return Card(
-              elevation: 10,
+              elevation: 20,
               child: Column(
                 children: [
                   Image.network(p.obj?.articles[index]["urlToImage"]),
